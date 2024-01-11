@@ -3,6 +3,6 @@ import mysql2 from "mysql2"
 export const db = mysql2.createConnection({
     host:"localhost",
     user:"root",
-    password:process.env.DB_KEY,
+    password:"Vsahai@2604",
     database:"blogday"
 })
